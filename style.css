@@ -1,0 +1,49 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.header {
+  display: flex;
+  background-color: #2d2d30;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 25px;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.logo-riot {
+  display: flex;
+  height: 5vh;
+}
+.buttons {
+  display: flex;
+  gap: 2vh;
+}
+.buttonHeader {
+  font-size: 15px;
+  padding: 10px 15px;
+  border-radius: 10px;
+  background-color: transparent;
+  color: white;
+  border-color: transparent;
+  cursor: pointer;
+  transition: 0.2s;
+}
+.buttonHeader:hover {
+  border-color: #d8343c;
+}
+@media (max-width: 700px) {
+  .header {
+    gap: 5vh;
+    justify-content: center;
+  }
+  .buttonHeader {
+    font-size: 25px;
+  }
+}
+@media (max-width: 400px) {
+  .buttonHeader {
+    font-size: 15px;
+  }
+}
