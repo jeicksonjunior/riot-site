@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="shortcut icon" href="./assets/images/riotHand-logo.png" />
-    <link rel="stylesheet" href="./style.css" />
+    <link rel="stylesheet" href="./assets/style.css" />
     <title>Riot Games</title>
   </head>
   <body>
@@ -31,41 +31,122 @@
       </nav>
     </header>
     <main>
+      <!--
       <div id="inicio">
-        <p>
-          Seção inicial: Primeira seção da página; pode conter elementos como:
-          slogan, botões de redirecionamentos, imagens, números redes sociais,
-          etc;
-        </p>
-        <p class="titulo">WE ARE RIOTERS!</p>
-        <!-- <img src="./assets/images/ekko.png" alt=''/> -->
-
-        <p>
-          Seção inicial: Primeira seção da página; pode conter elementos como:
-          slogan, botões de redirecionamentos, imagens, números redes sociais,
-          etc;
-        </p>
+        <!-- Seção inicial: Primeira seção da página; pode conter elementos como:
+          slogan ok, botões de redirecionamentos, imagens, números redes sociais,
+          etc; 
+        <div class="ladEsq">
+          <p class="titulo">WE ARE RIOTERS!</p>
+          <p>
+            A Riot Games foi fundada em 2006 com o objetivo de desenvolver,
+            distribuir e apoiar os maiores e melhores jogos com foco nos
+            jogadores do mundo. Em 2009, nós lançamos o League of Legends, nosso
+            título de estreia, aclamado no mundo todo. O LoL cresceu até se
+            tornar o título de PC mais jogado do mundo, transformando-se em um
+            dos principais fatores do crescimento explosivo do cenário de
+            Esports.
+          </p>
+          <button>facebook</button>
+          <button>instagram</button>
+          <button>twitter</button>
+        </div>
+        <div class="ladoDir">
+          <img
+            src="./assets/images/ekko.png"
+            alt="ekkoImage"
+            class="ekkoImage"
+          />
+        </div>
       </div>
       <div id="quemSomos">
+        <!-- Quem somos: Seção com informações da empresa, deve conter história ou
+          descrição , missão , visão e valores 
+        <p>QUEM SOMOS?</p>
         <p>
-          Quem somos: Seção com informações da empresa, deve conter história ou
-          descrição , missão , visão e valores;
+          Nossa história A Riot Games foi fundada em 2006 com o objetivo de
+          desenvolver, distribuir e apoiar os maiores e melhores jogos com foco
+          nos jogadores do mundo. Em 2009, nós lançamos o League of Legends,
+          nosso título de estreia, aclamado no mundo todo. O LoL cresceu até se
+          tornar o título de PC mais jogado do mundo, transformando-se em um dos
+          principais fatores do crescimento explosivo do cenário de Esports. À
+          medida que o LoL entra em sua segunda década, continuamos aprimorando
+          o jogo enquanto oferecemos novas experiências aos jogadores com
+          Teamfight Tactics, Legends of Runeterra, VALORANT, League of Legends:
+          Wild Rift e vários outros títulos em desenvolvimento. Além disso, a
+          Riot Forge dá aos desenvolvedores acesso aos recursos da Riot para
+          criar jogos como Ruined King e várias outras aventuras em Runeterra.
+          Também estamos expandindo o mundo de Runeterra em projetos multimídia,
+          incluindo música, quadrinhos, jogos de tabuleiro e a nossa popular
+          série animada Arcane. O Campeonato Mundial de League of Legends, que
+          acontece anualmente, conta com equipes de Esports qualificadas de 12
+          ligas internacionais. O Mundial é o campeonato mais assistido e
+          acompanhado de Esports e está entre os maiores e mais populares
+          eventos de jogos e esportes do mundo todo. Fundada por Brandon Beck e
+          Marc Merrill, e liderada pelo CEO Nicolo Laurent, a Riot Games está
+          sediada em Los Angeles, Califórnia, e conta com mais de 3.000 Rioters
+          em mais de 20 escritórios no mundo inteiro. A Riot foi certificada
+          como um Ótimo Local para se Trabalhar por três anos seguidos e foi
+          destaque de inúmeras listas, incluindo "As 100 Melhores Empresas para
+          se Trabalhar", "As 25 Melhores Empresas para se Trabalhar em
+          Tecnologia", "As 100 Melhores Empresas para Millennials" e "Os 50
+          Melhores Locais de Trabalho com Flexibilidade" da Fortune.
         </p>
       </div>
       <div id="servicos">
-        <p>Serviços: Seção informando os serviços da empresa;</p>
+        <!--Serviços: Seção informando os serviços da empresa-->
       </div>
       <div id="parceiros">
-        <p>
-          Parceiros: Seção informando os parceiros da empresa, deve conter um
-          carrossel
-        </p>
-        Formulário de contato: Seção com um formulário para o usuário entrar em
+        <!--   Parceiros: Seção informando os parceiros da empresa, deve conter um
+          carrossel 
+      </div>
+    -->
+      <div id="contato">
+        <!-- Formulário de contato: Seção com um formulário para o usuário entrar em
         contato com a empresa. Deverá conter os seguintes campos obrigatórios:
         nome, telefone, e-mail e mensagem (Apenas a parte visual , não precisa
-        funcionar);
+        funcionar)-->
+        <div class="form">
+          <div class="left-form">
+            <img
+              src="./assets/images/ahri.png"
+              alt="ahriImage"
+              class="left-form-image"
+            />
+          </div>
+          <div class="right-form">
+            <div class="card-form">
+              <div class="textfield">
+                <p class="card-title">Fale conosco!</p>
+                <label for="name">Nome</label>
+                <input
+                  type="text"
+                  id="name"
+                  name="name"
+                  placeholder="Inserir nome"
+                />
+                <label for="fone">Telefone</label>
+                <input
+                  type="fone"
+                  id="fone"
+                  name="fone"
+                  placeholder="Inserir telefone"
+                />
+                <label for="email">Email</label>
+                <input
+                  type="email"
+                  id="email"
+                  name="email"
+                  placeholder="Inserir email"
+                />
+                <label for="msg">Mensagem:</label>
+                <textarea id="msg" name="msg" rows="4" cols="50"></textarea>
+              </div>
+              <button class="btn-form">Enviar</button>
+            </div>
+          </div>
+        </div>
       </div>
-      <div id="contato"><p></p></div>
     </main>
     <footer class="footer">
       <img
@@ -75,6 +156,6 @@
       />
       <a href="#incio" class="footerAnchor">ProSempre BETA - EJECT © 2022.2</a>
     </footer>
-    <script src="mobile-navbar.js"></script>
+    <script src="./assets/mobile-navbar.js"></script>
   </body>
 </html>
