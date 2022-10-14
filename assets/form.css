@@ -1,0 +1,76 @@
+.form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.left-form {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.left-form-image {
+  width: 35vw;
+}
+.right-form {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.textfield {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  margin: 10px 0;
+}
+.textfield input {
+  width: 100%;
+  border: solid 2px;
+  padding: 15px;
+  margin-bottom: 30px;
+  background: transparent;
+  color: #f5f5f5;
+  font-size: 12pt;
+  outline: none;
+  box-sizing: border-box;
+}
+.textfield textarea {
+  width: 100%;
+  border: solid 2px;
+  padding: 15px;
+  background: transparent;
+  color: #f5f5f5;
+  font-size: 12pt;
+  outline: none;
+  box-sizing: border-box;
+}
+.textfield label {
+  color: #f5f5f5;
+  margin-bottom: 10px;
+}
+.textfield input::placeholder {
+  color: #f5f5f54b;
+}
+@media only screen and (max-width: 960px) {
+  .card-form {
+    width: 85%;
+  }
+}
+@media only screen and (max-width: 800px) {
+  .form {
+    flex-direction: column;
+  }
+  .left-form {
+    width: 100%;
+  }
+  .right-form {
+    width: 100%;
+  }
+  .left-form-image {
+    width: 60vw;
+  }
+}
