@@ -1,11 +1,9 @@
-.slider {
-  width: 200px;
+.carrosel {
+  width: 80vw;
   display: flex;
   align-items: center;
-  margin: 50px;
-  background-color: red;
+  margin: 100px 0;
 }
 .img {
-  width: 5px;
-  height: 5px;
+  width: 30vw;
 }
