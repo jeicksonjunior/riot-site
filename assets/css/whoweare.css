@@ -2,12 +2,6 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 92vh;
-}
-.wwa-text {
-  text-align: center;
-  letter-spacing: 2px;
-  font-size: 12pt;
 }
 .left-wwa {
   width: 45%;
@@ -28,7 +22,6 @@
 @media only screen and (max-width: 800px) {
   .whoweare {
     flex-direction: column;
-    height: auto;
   }
   .left-wwa {
     width: 100%;
@@ -38,8 +31,5 @@
   }
   .left-wwa-image {
     width: 60vw;
-  }
-  .wwa-text {
-    display: none;
   }
 }

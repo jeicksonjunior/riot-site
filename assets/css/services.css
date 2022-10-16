@@ -8,12 +8,15 @@
 }
 .logo {
   height: auto;
-  width: 8em;
+  width: 10vw;
+}
+.tft-logo {
+  width: 30%;
 }
 
 .card-games {
   background-color: #2b3149;
-  width: 60%;
+  width: 80%;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -28,5 +31,13 @@
 @media only screen and (max-width: 810px) {
   .games {
     height: auto;
+  }
+  .logo {
+    height: auto;
+    width: 8em;
+  }
+  .tft-logo {
+    width: 8em;
+    margin-left: 0;
   }
 }

@@ -3,9 +3,9 @@
   height: 92vh;
 }
 .home-text {
-  text-align: justify;
-  letter-spacing: 1px;
-  font-size: 20pt;
+  text-align: center;
+  letter-spacing: 2px;
+  font-size: 3vh;
   max-height: 600px;
 }
 .home-social-media {
@@ -17,27 +17,29 @@
 .left-home {
   width: 50%;
   display: flex;
-  justify-content: center;
+  justify-content: flex-start;
   align-items: center;
   flex-direction: column;
 }
 .left-home-image {
-  height: 600px;
+  height: 50vh;
+  margin-top: 4vh;
 }
 .right-home {
   width: 50%;
   display: flex;
-  justify-content: flex-start;
+  justify-content: center;
   align-items: flex-start;
+  margin-left: 15vh;
 }
-@media only screen and (max-width: 1030px) {
-  .home-text {
-    font-size: 2vh;
+@media only screen and (max-width: 2560px) {
+  .right-home {
+    justify-content: center;
   }
 }
 @media only screen and (max-width: 810px) {
   .home {
-    flex-direction: column-reverse;
+    flex-direction: column;
     height: auto;
   }
   .home-text {

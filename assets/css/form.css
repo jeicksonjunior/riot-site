@@ -11,7 +11,7 @@
   flex-direction: column;
 }
 .left-form-image {
-  width: 35vw;
+  width: 25vw;
 }
 .right-form {
   width: 50%;
@@ -51,6 +51,7 @@
 .textfield label {
   color: #f5f5f5;
   margin-bottom: 10px;
+  font-size: 3vh;
 }
 .textfield input::placeholder {
   color: #f5f5f54b;
