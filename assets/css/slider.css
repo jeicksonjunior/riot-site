@@ -1,0 +1,11 @@
+.slider {
+  width: 200px;
+  display: flex;
+  align-items: center;
+  margin: 50px;
+  background-color: red;
+}
+.img {
+  width: 5px;
+  height: 5px;
+}

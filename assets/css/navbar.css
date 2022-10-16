@@ -38,7 +38,7 @@ nav ul {
     position: absolute;
     top: 8vh;
     right: 0;
-    width: 50vw;
+    width: 100vw;
     height: 92vh;
     background-color: #2d2d30;
     flex-direction: column;

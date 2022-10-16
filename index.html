@@ -6,20 +6,25 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <!-- Favicon -->
     <link rel="shortcut icon" href="./assets/images/riotHand-logo.png" />
-    <!-- Css Geral-->
-    <link rel="stylesheet" href="./assets/style.css" />
+    <!-- Slich carrosel -->
+<link rel="stylesheet" type="text/css" href="slick/slick.css"/>
+// Add the new slick-theme.css if you want the default styling
+<link rel="stylesheet" type="text/css" href="slick/slick-theme.css"/>
+    <link rel="stylesheet" href="./assets/css/style.css" />
     <!-- Css Navbar -->
-    <link rel="stylesheet" href="./assets/navbar.css" />
+    <link rel="stylesheet" href="./assets/css/navbar.css" />
     <!-- Css Home-->
-    <link rel="stylesheet" href="./assets/home.css" />
+    <link rel="stylesheet" href="./assets/css/home.css" />
     <!-- Css Quem somos -->
-    <link rel="stylesheet" href="./assets/whoweare.css" />
+    <link rel="stylesheet" href="./assets/css/whoweare.css" />
     <!-- Css Serviços -->
-    <link rel="stylesheet" href="./assets/services.css" />
+    <link rel="stylesheet" href="./assets/css/services.css" />
+    <!-- Css Paceiros -->
+    <link rel="stylesheet" href="./assets/css/slider.css" />
     <!-- Css Form -->
-    <link rel="stylesheet" href="./assets/form.css" />
+    <link rel="stylesheet" href="./assets/css/form.css" />
     <!-- Css Footer -->
-    <link rel="stylesheet" href="./assets/footer.css" />
+    <link rel="stylesheet" href="./assets/css/footer.css" />
     <!-- Google Fonts - Ubunt -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -44,14 +49,14 @@
         </div>
         <ul class="nav-list">
           <li><a href="#inicio"> Início</a></li>
-          <li><a href="#quemSomos"> Quem somos</a></li>
+          <li><a href="#quemSomos">Quem somos</a></li>
           <li><a href="#servicos"> Serviços</a></li>
           <li><a href="#parceiro"> Parceiros</a></li>
           <li><a href="#contato"> Contate-nos</a></li>
         </ul>
       </nav>
     </header>
-    <main>
+    <main class="main-content">
       <div id="inicio">
         <!-- Seção inicial: Primeira seção da página; pode conter elementos como:
           slogan ok, botões de redirecionamentos, imagens, números redes sociais,
@@ -59,37 +64,31 @@
         <div class="home">
           <div class="left-home">
             <div class="card">
-              <p class="card-title">WE ARE RIOTERS!</p>
+              <p class="title">WE ARE RIOTERS!</p>
               <p class="home-text">
-                &nbsp&nbsp&nbsp&nbsp&nbsp A Riot Games foi fundada em 2006 com o
+                A Riot Games foi fundada em 2006 com o
                 objetivo de desenvolver, distribuir e apoiar os maiores e
                 melhores jogos com foco nos jogadores do mundo. Em 2009, nós
                 lançamos o League of Legends, nosso título de estreia, aclamado
                 no mundo todo. O LoL cresceu até se tornar o título de PC mais
                 jogado do mundo, transformando-se em um dos principais fatores
                 do crescimento explosivo do cenário de Esports.
-              </p>
-              <div class="home-social-media">
-                <button class="btn">facebook</button>
-                <button class="btn">instagram</button>
-                <button class="btn">twitter</button>
-              </div>
+              </p>   
             </div>
           </div>
           <div class="right-home">
             <img
-              src="./assets/images/ekko.png"
+              src="./assets/images/yasuo.png"
               alt="ekkoImage"
               class="left-home-image"
             />
           </div>
         </div>
       </div>
-
+      <!-- Quem somos: Seção com informações da empresa, deve conter história ou
+          descrição , missão , visão e valores -->
       <div id="quemSomos">
         <div class="whoweare">
-          <!-- Quem somos: Seção com informações da empresa, deve conter história ou
-          descrição , missão , visão e valores -->
           <div class="left-wwa">
             <img
               src="./assets/images/yasuo.png"
@@ -99,61 +98,71 @@
           </div>
           <div class="right-wwa">
             <div class="card">
-              <p class="card-title">QUEM SOMOS?</p>
-              <p class="card-subtitle">
+              <p class="title">QUEM SOMOS?</p>
+              <p class="subtitle">
                 "Como uma empresa focada nos jogadores, nós esperamos criar
                 experiências de jogo que sejam significativas para eles, assim
                 como também melhorar o mundo em que eles vivem ao servir e
                 investir nas comunidades das quais fazemos parte."
               </p>
               <p class="wwa-text">
-                &nbsp&nbsp&nbsp&nbsp&nbsp Criamos a Riot com a ideia de que uma
+                Criamos a Riot com a ideia de que uma
                 empresa de jogos profundamente comprometida em servir à sua
                 comunidade seria capaz de proporcionar experiências incríveis.
                 Acreditamos que qualquer pessoa que tenha paixão, visão e
-                perseverança pode causar um impacto positivo. Como parte de
-                nossa essência, acreditamos que nós, enquanto empresa, somos
-                capazes de estabelecer reconhecimentos duradouros e causar um
-                impacto positivo a quem joga os nossos jogos, às nossas
-                parcerias, aos Rioters e às comunidades a quem servimos. Por
-                meio da responsabilidade social corporativa, esperamos ajudar a
-                construir um mundo mais positivo para quem joga e para nossas
-                comunidades. Para isso, nos concentramos em fornecer acesso
-                igualitário à educação e ao desenvolvimento de habilidades, além
-                de promovermos atitudes positivas de cidadania em nossas
-                comunidades.
+                perseverança pode causar um impacto positivo. 
               </p>
             </div>
           </div>
         </div>
       </div>
+      <!--Serviços: Seção informando os serviços da empresa -->
       <div id="servicos">
         <div class="games">
-          <!--Serviços: Seção informando os serviços da empresa -->
-          <p>NOSSOS JOGOS!</p>
-          <div class="main-games">
-            <div class="card left-game">
-              <img
+          <p class="title">NOSSOS JOGOS!</p>
+            <div class="card-games">
+              <a href="https://www.leagueoflegends.com/pt-br/">
+                <img
                 src="./assets/images/lol.png"
                 alt="lol-logo"
                 class="logo lol-logo"
               />
+              </a>
             </div>
-            <div class="card right-gamlogo e">
-              <img
+            <div class="card-games">
+              <a href="https://playvalorant.com/pt-br/">    <img
                 src="./assets/images/valorant.png"
                 alt="val-logo"
-                class="logo val-logo right-game"
-              />
-            </div>
+                class="logo val-logo"
+              /></a>
+            </div> 
+            <div class="card-games">
+              <a href="https://playvalorant.com/pt-br/">    <img
+                src="./assets/images/wr.png"
+                alt="wr-logo"
+                class="logo wr-logo"
+              /></a>
+            </div> 
+            <div class="card-games">
+              <a href="https://playvalorant.com/pt-br/">    <img
+                src="./assets/images/tft.png"
+                alt="tft-logo"
+                class="logo tft-logo"
+              /></a>
+            </div> 
           </div>
-          <div class="side-games"></div>
         </div>
       </div>
       <div id="parceiros">
         <!--   Parceiros: Seção informando os parceiros da empresa, deve conter um
-          carrossel -->
-        <div class="card"><p class="card-title">CARROSEL!</p></div>
+          carrossel -->  
+          <p class="title ">PARCEIROS</p> 
+          <div class="carrosel">
+            <div class="img"><img src="./assets/images/kami.png" alt="" /></div>
+            <div class="img"><img src="./assets/images/yoda.png" alt="" /></div>
+            <div class="img"><img src="./assets/images/brtt.png" alt="" /></div>
+          </div>  
+        </div>
       </div>
       <!-- Formulário de contato -->
       <div id="contato">
@@ -168,7 +177,7 @@
           <div class="right-form">
             <div class="card">
               <div class="textfield">
-                <p class="card-title">Fale conosco!</p>
+                <p class="title">FALE CONOSCO!</p>
                 <label for="name">Nome</label>
                 <input
                   type="text"
@@ -205,16 +214,23 @@
     </main>
     <!-- Footer -->
     <footer class="footer">
-      <img
+      <a href="#incio">
+        <img
         src="./assets/images/riotHand-logo.png"
         alt="logo-footer"
         class="logo-footer"
       />
+      </a>
       <a href="https://www.ejectufrn.com.br" class="footerAnchor"
         >ProSempre BETA - EJECT © 2022.2</a
       >
     </footer>
     <!-- Scripts -->
-    <script src="./assets/mobile-navbar.js"></script>
+    <script src="./assets/js/mobile-navbar.js"></script>
+    <script src="./assets/js/slider.js"></script>
+    <!-- Slich scripts -->
+    <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script type="text/javascript" src="slick/slick.min.js"></script>
   </body>
 </html>

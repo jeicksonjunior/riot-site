@@ -1,0 +1,32 @@
+.games {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  row-gap: 20px;
+  height: 92vh;
+}
+.logo {
+  height: auto;
+  width: 8em;
+}
+
+.card-games {
+  background-color: #2b3149;
+  width: 60%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  border-radius: 20px;
+  height: 20vh;
+  margin-bottom: 40px;
+}
+.card-games:hover {
+  background-color: #782424;
+}
+@media only screen and (max-width: 810px) {
+  .games {
+    height: auto;
+  }
+}
