@@ -81,16 +81,10 @@ p {
     letter-spacing: 3px;
     font-size: 16pt;
     margin-bottom: 10px;
-    text-align: center;
   }
   .subtitle {
     letter-spacing: 3px;
     font-size: 10pt;
-
     margin-bottom: 10px;
   }
-}
-
-.lol-logo {
-  width: 200px;
 }

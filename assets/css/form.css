@@ -56,6 +56,9 @@
 .textfield input::placeholder {
   color: #f5f5f54b;
 }
+.textfield textarea {
+  resize: none;
+}
 @media only screen and (max-width: 960px) {
   .card-form {
     width: 85%;

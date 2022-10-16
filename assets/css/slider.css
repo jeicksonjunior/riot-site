@@ -1,9 +1,8 @@
-.carrosel {
-  width: 80vw;
+.gallery {
   display: flex;
   align-items: center;
-  margin: 100px 0;
+  justify-content: center;
 }
 .img {
-  width: 30vw;
+  width: 100%;
 }

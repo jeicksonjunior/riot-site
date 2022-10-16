@@ -1,7 +1,7 @@
 .home {
   display: flex;
-  height: 92vh;
 }
+
 .home-text {
   text-align: center;
   letter-spacing: 2px;
@@ -21,7 +21,7 @@
   align-items: center;
   flex-direction: column;
 }
-.left-home-image {
+.home-image {
   height: 50vh;
   margin-top: 4vh;
 }
@@ -53,7 +53,7 @@
   .left-home {
     width: 100%;
   }
-  .left-home-image {
+  .home-image {
     display: none;
   }
 }

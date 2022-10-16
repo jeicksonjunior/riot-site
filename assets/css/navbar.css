@@ -7,6 +7,8 @@ nav {
   align-items: center;
   background-color: #2d2d30;
   height: 8vh;
+  position: fixed;
+  width: 100%;
 }
 nav ul {
   align-items: center;
@@ -86,4 +88,7 @@ nav ul {
 }
 .ekkoImage {
   height: 200px;
+}
+.void {
+  height: 8vh;
 }
