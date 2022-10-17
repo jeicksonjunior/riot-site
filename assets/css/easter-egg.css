@@ -1,0 +1,12 @@
+.main-content {
+  display: flex;
+  flex-direction: column;
+  justify-items: center;
+  align-items: center;
+}
+.astronautas {
+  height: 61vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
